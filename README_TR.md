@@ -17,11 +17,11 @@ PostreSQL veritabanı için öncelikle veritabanına giriş yapın
 ```bash
 sudo -u postgres psql
 ```
-
-## Veritabanına giriş yaptıktan sonra tablo ve veritabanı kullanıcısı oluşturun kullanıcı 
-CREATE DATABASE monitoring_db;
+ Veritabanına giriş yaptıktan sonra tablo ve veritabanı kullanıcısı oluşturun kullanıcı 
+```CREATE DATABASE monitoring_db;
 CREATE USER user WITH ENCRYPTED PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE monitoring_db TO user;
+```
 
 
 Kullanıcıyı oluşturduktan sonra  `main.py` içinde güncelleyin:
