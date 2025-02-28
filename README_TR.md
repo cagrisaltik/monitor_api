@@ -18,7 +18,8 @@ PostreSQL veritabanı için öncelikle veritabanına giriş yapın
 sudo -u postgres psql
 ```
  Veritabanına giriş yaptıktan sonra tablo ve veritabanı kullanıcısı oluşturun kullanıcı 
-```CREATE DATABASE monitoring_db;
+```
+CREATE DATABASE monitoring_db;
 CREATE USER user WITH ENCRYPTED PASSWORD 'password';
 GRANT ALL PRIVILEGES ON DATABASE monitoring_db TO user;
 ```
