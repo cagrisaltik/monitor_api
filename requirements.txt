@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+passlib[bcrypt]
+jose[cryptography]
+ping3
+discord-webhook
+python-dotenv
+requests
+psycopg2-binary
+pysnmp
