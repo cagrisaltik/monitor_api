@@ -35,7 +35,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
 # Webhook Notification System
-WEBHOOK_URL = "https://discord.com/api/webhooks/1343004896978272298/ZqEkzVYvqq4UOtLg9XS7WSTnWOyTZjmeaU8ZQlKCiVUM7Kle9-EdpYz1cVaurBw0CY0N"
+WEBHOOK_URL = ""
 
 def send_webhook_message(message: str):
     webhook = DiscordWebhook(url=WEBHOOK_URL, content=message)
