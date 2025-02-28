@@ -14,7 +14,9 @@ pip install -r requirements.txt
 ### 2️⃣ Veritabanını Oluşturun
 
 PostreSQL veritabanı için öncelikle veritabanına giriş yapın
+```bash
 sudo -u postgres psql
+```
 
 ## Veritabanına giriş yaptıktan sonra tablo ve veritabanı kullanıcısı oluşturun kullanıcı 
 CREATE DATABASE monitoring_db;
